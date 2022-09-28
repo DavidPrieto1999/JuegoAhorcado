@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="diseño.css"  />
+        <title>Juego del Ahorcado</title>
+        <link rel="icon" href="imagenes/Icono.ico">
+    </head>
+    <body>
+        
+            
+        <main>
+            
+            <section class="AgregarPalabra">
+                <div class="Palabra">
+                    <input type="text" id="AgregarPalabra" class="NuevaPalabra" placeholder="Escriba una palabra" />
+                    <p class="validarMensaje"></p>
+                </div>  
+
+                <p class="Condicion">🛈 Máx. 8 caracteres</p>  
+
+                <div class="Botones">
+                    <div class="StyleBoton">
+                        <button type="button" id="BotonGuardarEmpezar">Guardar y empezar</button>
+                        <button type="button" id="BotonCancelar">Cancelar</button>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="BotonesMenuPrincipal">
+                <div class="TituloJuego"><h1>Juego del ahorcado</h1></div>
+                <button type="button" class="btnIniciarJuego" id="IniciarSonido">Iniciar Juego</button>
+                <!-- <a href = "./agregarPalabra.html">  -->
+                <button  type="button" class="btnAgregarPalabra">Agregar Palabra</button>
+
+            </section> 
+
+            <div class="mensaje">
+                <!-- //colocar mensaje de Gano o perdio -->
+            </div>
+            
+                   
+            </div>
+            <!-- <div class="adivinado"> -->
+            <div class="LetrasCorrectas">
+            <!-- //colocar letras adivinadas -->
+            </div>
+            <!-- <div class="errado"> -->
+            <div class="LetrasErradas">
+            <!-- //colocar letras que no pertenecen a la palabra a adivinar -->
+            </div>
+            <div id="hombreAhorcado" >
+                <img src="Imagenes/1.png" alt="Juego del ahorcado" id="dibujoAhorcado">
+                <video src="Imagenes/9.mp4" loop autoplay muted id="finDeJuego"></video>
+            </div>
+            <div class="botones" id="boton">
+                <input type="button" class="btnNuevoJuego" value="Nuevo juego" ></button>
+                <input type="button" class="btnDesistir" value="Desistir"></button>
+            </div> 
+            
+            
+
+
+    
+            <!-- </form> -->
+
+            
+            <script src="palabra.js"></script>
+            <script src="motor.js"></script>
+
+        </main>
+    </body>
+</html>

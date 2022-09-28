@@ -1,0 +1,253 @@
+header {
+    text-align:left;
+    font-size: 90px;
+    padding-left: 210px;
+    margin:0;
+    color:#0a3871;
+}
+
+.fam{
+  /* text-align:right; */
+  position: relative;
+  font-style: italic;
+  left: 60%;
+  font-size: 20px;
+}
+
+
+.TituloJuego {
+  font-size: 50px;
+  font-family: fantasy;
+  text-align: center;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+.btnIniciarJuego {
+
+  margin-left: 37%;
+  margin-bottom: 20px;
+
+  
+}
+.btnAgregarPalabra{
+  display:block;  
+  margin-left: 37%;
+  text-decoration:none;
+  color: black;
+  
+  
+}
+html {
+    font-size: 16px;
+  }
+body {
+    background: #BDDDDD;
+}
+
+#letra{
+    
+    font-size: 16px;
+    /* background:red; */
+    color: green;
+    font-weight: bold;
+}
+
+#frase{
+    font-size: 16px;
+    text-decoration-line:none;
+    color:red;
+    font-weight: bold;
+    /* float: buttom; */
+}
+
+
+
+.LetrasCorrectas {
+    text-align: center;
+    color: #002462;
+    font-size: 1.8rem;
+  }
+  
+.letra {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+  }
+.adivinada, #colocaletraAcertada {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-bottom: solid 2px #002462;
+    margin-left: 0.4rem;
+    line-height: 4.5rem;
+  }
+  
+  .LetrasErradas {
+    text-align:  center;
+    margin-top: 1rem;
+    color: rgb(235, 14, 25);
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  #colocaletra {
+    text-align:  center;
+    margin-top: 1rem;
+    color: #45caf3;
+    font-weight: bold;
+  }
+
+  .mensaje{
+    text-align:center;
+    /* margin-left: 680; */
+    font-size: 30px;
+    color: #0a3871;
+    font-style: italic;
+  }
+ 
+  .hidden {display:none}
+/* #home::after{
+    content:"Hombre ahorcado"; }*/
+    [type="button"] {
+        width: 26%;
+        padding: 1rem;
+        border-radius: 1rem;
+        border: solid 1px #0a3871;
+        color: #0a3871;
+        background: inherit;
+        cursor: pointer;
+        font-family: fantasy;
+        font-size: 50px;
+    }
+      
+      .btnNuevoJuego, .btnIniciarJuego {
+        background-color: #0a3871;
+        color: #fff;
+        border-color: #000;
+        
+      }
+      
+.btnNuevoJuego:hover, .btnIniciarJuego:hover {
+  background-color: #fff;
+  color: #0a3871;
+  border: solid 5px ;
+  border-color:rgb(46, 201, 248);
+  font-size: 45px;
+} 
+
+.btnDesistir:hover, .btnAgregarPalabra:hover {
+  color: rgb(152, 255, 226);
+  border: solid 5px ;
+  background-color: #130069;
+  border-color:rgb(137, 253, 193);
+  font-size: 45px;
+  text-decoration:none;
+  
+} 
+#botonesMenuP,.Botones {
+
+  /* text-align: left; */
+  margin-top: 3rem;
+}
+
+.Botones {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.botones{
+
+  text-align: center;
+
+
+
+}
+
+
+
+.EntradaPalabra {
+  display: flex;
+  align-items: center;
+  margin-top:  7rem;
+}
+
+
+.validarMensaje {
+  /* display: inline-flexbox; */
+  text-align: center;
+  color:red;
+  margin-left: 1%;
+}
+
+.NuevaPalabra {
+  width: 20%;
+  margin-left: 38.8%;
+  margin-top: 10%;
+  text-align: center;
+  padding: 1rem;
+  font-size: 30px;
+  font-family: fantasy;
+  color: #002462;
+  border-radius: 1rem;
+  background: inherit; 
+  border: none;
+}
+
+
+/* .main__section__botones--styleBoton{
+  display: inline-flex;
+  align-items: center;
+} */
+
+.Condicion{
+  margin-bottom: 1rem;
+  text-align: center;
+  width: 100%;
+  height:50%;
+
+
+}
+
+#BotonGuardarEmpezar{
+
+  font-size: 30px;
+  background-color: #0a3871;
+  color: #fff;
+  border-color: #000;
+}
+
+#BotonCancelar {
+  color:black;
+  border: solid 2px ;
+  border-color:rgb(46, 201, 248);
+  font-size: 30px;
+  text-decoration:none;
+  color: black;
+}
+
+#BotonGuardarEmpezar:hover{
+  font-size:25px;
+  border-color: rgb(97, 232, 239);
+}
+
+#BotonCancelar:hover {
+  font-size:25px;
+  border-color:#002462;
+}
+#hombreAhorcado{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#dibujoAhorcado{
+  width: 700px;
+  
+  
+}
+#finDeJuego{
+  width: 700px;
+  
+
+}
+
